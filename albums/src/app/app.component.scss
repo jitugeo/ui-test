@@ -8,6 +8,15 @@ table {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
+    overflow-wrap: break-word;
+  }
+
+  th button{
+    border:none;
+    background:none;
+    width: 100%;
+    cursor: pointer;
+    outline: none;
   }
   
   tr:nth-child(even) {
@@ -16,12 +25,15 @@ table {
 
   .links{
       display: flex;
-        padding: 10px 0;
         border: 1px solid #dddddd;
       button{
-          margin-right: 10px;
           cursor: pointer;
-          padding: 5px;
+          padding: 15px;
+          border-color: #dddddd;
+          background:none;
+          text-transform: uppercase;
+          border-style: solid;
+          border-width: 0 1px 0 0;
           color: blue;
       }
 
