@@ -38,14 +38,6 @@ speed-measure-plugin.json
 /coverage
 /junit-coverage
 /libpeerconnection.log
-npm-debug.log
-yarn-error.log
-testem.log
+
 /typings
 
-# System Files
-.DS_Store
-Thumbs.db
-
-#compodoc output
-/documentation

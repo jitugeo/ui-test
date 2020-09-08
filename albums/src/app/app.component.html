@@ -1,0 +1,25 @@
+<table>
+  <thead>
+    <tr>
+      <th>Artist Name</th>
+      <th>Album Name</th>
+      <th>Year Released</th>
+      <th>Song Track#</th>
+      <th>Song Name</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let song of songs">
+      <td>{{song.artist_name}}</td>
+      <td>{{song.album_name}}</td>
+      <td>{{song.year_released}}</td>
+      <td>{{song.track}}</td>
+      <td>{{song.name}}</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="links">
+  <button *ngFor="let page of pages" (click)='paginationClick(page.link)'>{{page.rel}}</button>
+</div>
